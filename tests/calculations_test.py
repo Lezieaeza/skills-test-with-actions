@@ -71,7 +71,7 @@ def test_get_nth_fibonacci_ten():
 
 
 def test_area_of_circle_negative_radius():
-    """Test with a negative radius."""
+    """Test with a negative radius to raise ValueError."""
     # Arrange
     radius = -1
 
@@ -81,7 +81,7 @@ def test_area_of_circle_negative_radius():
 
 
 def test_get_nth_fibonacci_negative():
-    """Test with negative n."""
+    """Test with negative number to raise ValueError."""
     # Arrange
     n = -1
 
